@@ -12,7 +12,7 @@ const TypographySectionHeading = ({
   fontSize,
   lineHeight,
 }: TypographySectionHeadingProps) => (
-  <div className="space-x-4 font-medium text-slate-300">
+  <div className="space-x-4 font-medium text-grey-100">
     <span>Plus Jakarta Sans</span>
     <span className="text-black">{weight.toUpperCase()}</span>
     <span>{`${fontSize}px`}</span>
@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="container mx-auto">
       <h1 className="heading-xl mb-10 space-x-3">
-        <span className="">02</span>
+        <span className="text-brand">02</span>
         <span className="">Typography</span>
       </h1>
       <div className="grid grid-cols-[auto_1fr] gap-x-24">

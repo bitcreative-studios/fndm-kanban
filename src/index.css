@@ -12,6 +12,7 @@
 }
 
 @layer components {
+  /* Typography */
   .heading-lg,
   .heading-xl,
   .heading-md,
