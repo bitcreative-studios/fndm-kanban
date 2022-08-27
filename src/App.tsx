@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from './logo.svg'
 import './App.css'
+import Button from './components/Button'
 
 type TypographySectionHeadingProps = {
   weight: 'bold' | 'medium'
@@ -72,6 +73,26 @@ function App() {
           </section>
         </div>
       </div>
+      <div className="mt-24">
+        <h1 className="heading-xl mb-10 space-x-3">
+          <span className="text-brand">03</span>
+          <span className="">Interactive Elements</span>
+        </h1>
+      </div>
+      <section className="mt-10 space-x-4">
+        <Button size="large" disabled>
+          Button Primary (L)
+        </Button>
+        <Button>Button Primary</Button>
+        <Button disabled>Button Disabled </Button>
+        <div className="inline-block w-[416px]">
+          <Button fluid variant="danger">
+            Button Fluid Danger
+          </Button>
+        </div>
+        <Button variant="secondary">Button Secondary</Button>
+        <Button variant="danger">Button Danger</Button>
+      </section>
     </div>
   )
 }
