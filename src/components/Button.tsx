@@ -35,6 +35,7 @@ const Button = ({
           'heading-md bg-grey-50 text-brand hover:bg-[#D8D7F1]': variant === 'secondary',
           'bg-danger text-white hover:bg-danger-100': variant === 'danger',
           'w-full': fluid,
+          'leading-loose': size !== 'large',
           'pointer-events-none bg-brand-100 opacity-50': disabled,
         },
         size === 'large' && variant === 'primary' ? 'py-3' : 'py-2',
